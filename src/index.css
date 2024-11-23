@@ -1,0 +1,429 @@
+body {
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
+}
+
+.navbars {
+  min-height: 70px;
+  background-color: #000000;
+}
+
+.nav-links {
+  color: black;
+  font-weight: 500;
+  
+}
+
+.nav-links:hover {
+  color: #000000;
+  font-weight: 1000;
+}
+
+.image-section {
+  height: 350px;
+}
+
+.image-container {
+  width: 100%;
+  height: 350px;
+}
+
+.image-container::before {
+  content: "";
+  height: 500px;
+  width: 100%;
+  display: block;
+  background-image: url("../public/images/MainImg5.png");
+  background-size: cover;
+  background-position: 0 50%;
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 100px;
+}
+
+.image-text {
+  font-size: 63px;
+  font-weight: 800;
+  color: white;
+  font-family: sans-serif;
+  
+  width: max-content;
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  padding-top: 150px;
+  margin-top: 150px;
+
+}
+
+.image-text-position {
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  padding-top: 220px !important;
+  max-width: 100% !important;
+
+}
+
+.service-title {
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+
+
+}
+
+.testimony-title {
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+
+
+.schebton {
+  font-size: 13px;
+  font-weight: 100;
+  font-family: sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin-top: 50px !important;
+  letter-spacing: 2px;
+}
+
+.schebton:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: #ffffff;
+  border-top: 0cm;
+  border-left: 0px;
+  border-bottom: 10px;
+  border-right: 0px;
+}
+
+
+.card-image {
+  width: 500px;
+  height: 190px;
+  object-fit:contain;
+}
+
+.greyscale {
+  filter: sepia(0.4) saturate(1.2) brightness(0.95);
+}
+
+.testimony-container {
+  height: 350px;
+  background-color: #c4c4c4;
+  padding-top: 60px;
+}
+
+.testimony-image {
+  width: 100px;
+  height: 100px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.Navs {
+  height: 200px;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.bnav-left {
+  margin-left: 35px;
+}
+
+.text-white.text-start.contact-text {
+  font-size: small;
+}
+
+.icons {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (max-width: 400px) {
+  .logo-text {
+    font-size: 15px !important;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .image-text-position {
+    padding-top: 90px;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .logo-text {
+    font-size: 19px;
+  }
+
+  .image-text {
+    font-size: 20px !important;
+    /* Reduce size on smaller screens */
+  }
+}
+
+
+@media screen and (max-width: 10007px) {
+  .image-text {
+    font-size: 43px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .image-text {
+    font-size: 33px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .testimony-container {
+    height: 550px;
+
+  }
+
+  .Navs {
+    height: 227px;
+    background-color: black;
+    padding: 50px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 770px) {
+  .contact-text {
+    text-align: center !important;
+  }
+
+  .bnav-left {
+    text-align: center !important;
+    margin-left: 0px;
+  }
+
+  .social-card {
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+  }
+}
+
+.holder {
+  padding: 1px 0;
+}
+
+.about-us {
+  width: 100%;
+  height: 500px;
+}
+
+.test {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.about-us-image {
+  object-fit: cover;
+}
+
+.about-us-title {
+  font-family: sans-serif !important;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us-title {
+    text-align: center !important;
+    margin-left: 0px;
+  }
+}
+
+.about-us-text {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  text-align: start;
+}
+
+
+.inner {
+  width: 90%;
+}
+
+.outer {
+  background-color: #f8f8f8;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .inner {
+    width: 90%;
+  }
+
+  .outer {
+    width: 100%;
+  }
+}
+
+.write-to-us {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 100px;
+  padding-bottom: 10px;
+
+}
+
+.services-intro {
+
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  
+}
+
+.service-heading {
+  font-family: sans-serif;
+  font-size: 50px; 
+  color: #000;
+
+}
+
+
+.desc {
+  font-size: 14px;
+  padding: 0 10px;
+  font-family: sans-serif;
+}
+
+.nostyle {
+  text-decoration: none !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #000000;
+  /* Blue background */
+  color: white;
+  /* White text */
+  border-radius: 24px;
+  /* Rounded edges */
+  background-color: #000000;
+}
+.title-text {
+  font-family: sans-serif;
+  padding-top: 170px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.bullet-points span {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.timing-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.day {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.time {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.timings-title {
+  font-size: 30px; 
+  font-weight: bold; 
+  color: #000000; 
+  text-transform: uppercase; 
+  margin-bottom: 1rem; 
+  margin-top: 80px;
+  
+}
+.location-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1rem;
+  padding-top: 50px;
+}
+
+.about-us-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.about-us-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #000000;
+  text-align: center; /* Center-aligns the description */
+}
+.about-us-title {
+  font-family: sans-serif;
+  color: #000000;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.divider {
+  width: 10%; /* Adjust width as needed */
+  margin: 0.5rem auto; /* Center-align the divider */
+  border: 0; /* Remove default border */
+  border-top: 3px solid #000000; /* Add a solid line */
+  opacity: 0.8; /* Slight transparency */
+  border-radius: 2px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
