@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 function MainImg() {
   return (
     <div>
@@ -18,6 +20,8 @@ function MainImg() {
 
           {/* Button Section */}
           <div className="btn schebton mt-5">CONTACT US</div>
+        
+
         </div>
       </div>
 
